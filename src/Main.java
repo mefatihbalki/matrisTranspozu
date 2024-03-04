@@ -9,6 +9,8 @@ public class Main {
                 {1, 2, 3},
                 {4, 5, 6}
         };
+
+        //iki matis çıkışı
         System.out.println("Matris:");
         firstmatris(matris1);
         transpoz(matris1);
@@ -18,6 +20,7 @@ public class Main {
         transpoz(matris2);
     }
 
+    //ilk matrisi geziyoruz
     public static void firstmatris(int[][] matris) {
         for (int i = 0; i < matris.length; i++) {
             for (int j = 0; j < matris[i].length; j++) {
@@ -27,6 +30,7 @@ public class Main {
         }
     }
 
+    //tranpozu gezip yazıyoruz
     public static void transpoz(int[][] matris) {
         System.out.println("Transpoz:");
         for (int i = 0; i < matris[0].length; i++) {
