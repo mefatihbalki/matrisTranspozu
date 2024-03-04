@@ -10,7 +10,7 @@ public class Main {
                 {4, 5, 6}
         };
 
-        //iki matis çıkışı
+        //iki matris çıkışı
         System.out.println("Matris:");
         firstmatris(matris1);
         transpoz(matris1);
